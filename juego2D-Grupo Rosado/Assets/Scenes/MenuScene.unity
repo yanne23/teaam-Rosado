@@ -1212,8 +1212,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -21.901, y: 23.892}
-  m_SizeDelta: {x: 2131.038, y: 918.782}
+  m_AnchoredPosition: {x: -8.016, y: 12.446}
+  m_SizeDelta: {x: 2103.269, y: 1129.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1050772338
 GameObject:
@@ -1404,8 +1404,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015259, y: 289}
-  m_SizeDelta: {x: 890.485, y: 130.034}
+  m_AnchoredPosition: {x: 0.00013311, y: 371}
+  m_SizeDelta: {x: 1689.29, y: 203.367}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1259685496
 MonoBehaviour:
@@ -1427,7 +1427,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NAME'S GAME
+  m_text: The odyssey of the Guardians
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -1454,13 +1454,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
-  m_fontSizeBase: 150
+  m_fontSize: 120
+  m_fontSizeBase: 120
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
