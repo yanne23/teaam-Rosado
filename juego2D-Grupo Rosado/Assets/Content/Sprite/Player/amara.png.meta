@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f1ebd2730ac1b834bba88da11e6dfb86
+guid: 381d7512084138f4fb83f451259cd558
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 40
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pngegg_0
+      name: amara_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 568
-        width: 46
-        height: 98
+        x: 376
+        y: 592
+        width: 69
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cefef9cb59432f4bb3d3b07d57e9a38
-      internalID: -1453522113
+      spriteID: 9ba9d96e66c32ff4e9adc71f6782209e
+      internalID: 1927438227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_1
+      name: amara_1
       rect:
         serializedVersion: 2
-        x: 147
-        y: 568
-        width: 46
-        height: 98
+        x: 476
+        y: 577
+        width: 85
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c73337ecee6709408b05b7cf852db9a
-      internalID: 90501847
+      spriteID: 3ee20f417b8c94f498465825d9c14949
+      internalID: 2114238776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_2
+      name: amara_2
       rect:
         serializedVersion: 2
-        x: 261
-        y: 568
-        width: 45
-        height: 98
+        x: 490
+        y: 666
+        width: 5
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b460d17416fc44c98b4d32cbe7b46b
-      internalID: -614103979
+      spriteID: 70ada8d0e66efe840bb8dff56b367046
+      internalID: 600681787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_3
+      name: amara_3
       rect:
         serializedVersion: 2
-        x: 374
-        y: 568
-        width: 48
-        height: 93
+        x: 577
+        y: 570
+        width: 97
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa15fd70af8e7a54082d33883a37bef5
-      internalID: 1230884155
+      spriteID: 6464d28677a0ae74997680e3cc576990
+      internalID: -1289944768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_4
+      name: amara_4
       rect:
         serializedVersion: 2
-        x: 470
+        x: 31
         y: 568
-        width: 84
-        height: 91
+        width: 50
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e3ef0d5a81051241ad427c052c5fffb
-      internalID: -956411571
+      spriteID: 1b980362c85fc4e42a1bd12fd76119a2
+      internalID: 987721838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_5
+      name: amara_5
       rect:
         serializedVersion: 2
-        x: 593
+        x: 145
         y: 568
-        width: 65
-        height: 91
+        width: 49
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,19 +255,103 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf161d92551d16d45ada3500d9b33858
-      internalID: 1172498173
+      spriteID: e1eea912357ac034686889891bdd609b
+      internalID: -6527526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_6
+      name: amara_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 568
+        width: 49
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7563c85c02ed6144bff668fe5ed4855
+      internalID: 368060357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 595
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba7355f3854ad646bcc0741edbebc8a
+      internalID: -14624587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 609
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e9faaec33eb2e47978ad41dec64d33
+      internalID: 100450904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_9
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 592
+        width: 18
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefaea153df8e9d4fa47466f20c398ad
+      internalID: -375707820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_10
       rect:
         serializedVersion: 2
         x: 705
         y: 568
-        width: 71
+        width: 69
         height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -276,20 +360,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ae22e96097f63a42be6926a30836524
-      internalID: -947519296
+      spriteID: 435096350ae46b84fa04a8339ea2d4c0
+      internalID: 1891803062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_7
+      name: amara_11
       rect:
         serializedVersion: 2
         x: 822
         y: 568
         width: 62
-        height: 91
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,20 +381,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a83effa701057c4ba2d5fcbf70c897e
-      internalID: 1355541904
+      spriteID: 721fdb85c4540be4ebce4bbe5762d00e
+      internalID: 979600004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_8
+      name: amara_12
       rect:
         serializedVersion: 2
-        x: 927
+        x: 929
         y: 568
-        width: 80
-        height: 91
+        width: 78
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,20 +402,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eac2fb43f1ea16c4f9cb61fb53805645
-      internalID: 1381285655
+      spriteID: 66a286a958e96a74faaf2835ab3bb07e
+      internalID: -1034533830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_9
+      name: amara_13
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 597
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f959cc8db27354f8e3ca572af4ea17
+      internalID: -1038612728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_14
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 581
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf825a7f2da3604abf8f525c5a7a811
+      internalID: 1831998763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_15
       rect:
         serializedVersion: 2
         x: 31
         y: 455
-        width: 51
-        height: 95
+        width: 50
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,20 +465,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1667bd23c78afac40a8e832ae3b7b2a1
-      internalID: 228164967
+      spriteID: 270e7b528bd0c9a449046ab9673d5524
+      internalID: 1379808688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_10
+      name: amara_16
       rect:
         serializedVersion: 2
         x: 145
         y: 455
-        width: 51
-        height: 95
+        width: 49
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,40 +486,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1d083558d924b64e9a9c67cbc421dca
-      internalID: -593426090
+      spriteID: 2f2f257b59aabb64da2077b0c4cc4565
+      internalID: 520505642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_11
+      name: amara_17
       rect:
         serializedVersion: 2
         x: 259
         y: 455
-        width: 51
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e8d966e142ad0c4f85f43dfcb08837c
-      internalID: 898283148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_12
-      rect:
-        serializedVersion: 2
-        x: 373
-        y: 455
-        width: 51
+        width: 49
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -402,20 +507,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0370cac8c1495b24caf21556060cf8a0
-      internalID: -207515152
+      spriteID: f84881461f97de44d8d09c8031f84b3a
+      internalID: -1090597432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_13
+      name: amara_18
       rect:
         serializedVersion: 2
-        x: 485
+        x: 367
         y: 455
-        width: 54
-        height: 94
+        width: 62
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,20 +528,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 178729c0e058d074888d69d7865bacf1
-      internalID: 343115515
+      spriteID: 8c164c38d40cada49a44688446f78f08
+      internalID: 1189394444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_14
+      name: amara_19
       rect:
         serializedVersion: 2
-        x: 598
-        y: 455
-        width: 55
-        height: 94
+        x: 421
+        y: 533
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,38 +549,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c6b8559e95daed4f8207dbb7e8561a0
-      internalID: 67767662
+      spriteID: 23c6beb7461bb004f870b00bfc8e4ca0
+      internalID: -455816310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_15
+      name: amara_20
       rect:
         serializedVersion: 2
-        x: 710
-        y: 455
-        width: 59
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7424b4abb65e0a74ebf1a565ab6d5222
-      internalID: 409877516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_16
-      rect:
-        serializedVersion: 2
-        x: 824
+        x: 481
         y: 455
         width: 58
         height: 95
@@ -486,20 +570,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1c25d8c77bcdd643af6b3881dc93122
-      internalID: -439193730
+      spriteID: 2840159f001f2934fa545837bf3dccea
+      internalID: 77469474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_17
+      name: amara_21
       rect:
         serializedVersion: 2
-        x: 938
+        x: 595
         y: 455
-        width: 58
-        height: 95
+        width: 62
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,20 +591,146 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 081927f8cfa4d8d41a6207fdbd7364a1
-      internalID: -1105284782
+      spriteID: 4058c7c31fc761a4da806fcff491158b
+      internalID: 1266845043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_18
+      name: amara_22
       rect:
         serializedVersion: 2
-        x: 30
+        x: 648
+        y: 533
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53bfebdc9363e44589d6d48ca8fa0d8
+      internalID: 1867142806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_23
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 455
+        width: 74
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba68db8986cee34388a07ac01cd262a
+      internalID: 415435960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_24
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 455
+        width: 75
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15013c86b51abd246a66fc02bff3f471
+      internalID: 1483736691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_25
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 455
+        width: 74
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59a00ffa7cb4634cbfeb02c7a005c44
+      internalID: 731247800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_26
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 476
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886544b1ee79fe64398dac007548732f
+      internalID: 204146414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_27
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 476
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d9cd97d3e499c4eb9c8f444c9edd38
+      internalID: 43645530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_28
+      rect:
+        serializedVersion: 2
+        x: 33
         y: 341
-        width: 54
-        height: 95
+        width: 48
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,20 +738,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2122d715e8383ac46b86025a01a32f6d
-      internalID: -1991056854
+      spriteID: 18af43528955bec459627ac3f8d07822
+      internalID: -1130445509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_19
+      name: amara_29
       rect:
         serializedVersion: 2
-        x: 143
+        x: 147
         y: 341
-        width: 55
-        height: 95
+        width: 47
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,20 +759,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c0ff92f985014f4e8d0415e1b9f6e8f
-      internalID: -1017205629
+      spriteID: 9c9a771fd6ffe3747ae0114b52e6f9b8
+      internalID: 810249334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_20
+      name: amara_30
       rect:
         serializedVersion: 2
-        x: 257
+        x: 261
         y: 341
-        width: 55
-        height: 95
+        width: 47
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,20 +780,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5c34a6433fb244438b958ea13a5f17c
-      internalID: -382900478
+      spriteID: 338d3a56807b95947ae98ec0fee9ff3c
+      internalID: -1050516533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_21
+      name: amara_31
       rect:
         serializedVersion: 2
-        x: 373
+        x: 367
+        y: 341
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e49d260aee354c914a2b7c4f70dc9
+      internalID: -1076476880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_32
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 341
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb31b5ecff241b4282c5ac219b13dad
+      internalID: 1105375214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_33
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 341
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a41afb0a53f4f4c8153c7d7f6ec27e
+      internalID: 658467933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_34
+      rect:
+        serializedVersion: 2
+        x: 714
         y: 341
         width: 49
-        height: 95
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +864,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c8a73b8e455fb8458eb015198d74448
-      internalID: 804891955
+      spriteID: 45305d8319221b6489ea8b0d0a9558a0
+      internalID: 368319253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_22
+      name: amara_35
       rect:
         serializedVersion: 2
-        x: 486
+        x: 828
         y: 341
-        width: 50
-        height: 95
+        width: 49
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,20 +885,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16b560352d6ebfc45bb6010af143bb38
-      internalID: -525350959
+      spriteID: 0de59a1397b2520409cc024a3c85d313
+      internalID: -88332990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_23
+      name: amara_36
       rect:
         serializedVersion: 2
-        x: 600
+        x: 942
         y: 341
-        width: 50
-        height: 95
+        width: 49
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -633,62 +906,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11e64da4d36fd714eaea3ec7989e70d2
-      internalID: -5014145
+      spriteID: 86ecd509d42b3954585df5bd536fe434
+      internalID: 2018243649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_24
+      name: amara_37
       rect:
         serializedVersion: 2
-        x: 700
-        y: 341
-        width: 79
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ec5c8f665740224c9cf43e0ba6af2ce
-      internalID: -676210906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_25
-      rect:
-        serializedVersion: 2
-        x: 814
-        y: 341
-        width: 79
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8addeff93ed410b42823a3fda6b71f52
-      internalID: 1948884835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_26
-      rect:
-        serializedVersion: 2
-        x: 927
-        y: 341
+        x: 17
+        y: 227
         width: 80
-        height: 56
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,20 +927,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b7dac92b886a5941b0c5cb109b5c732
-      internalID: 207749421
+      spriteID: d7886f95c2c20cf45bd8891d36596c04
+      internalID: 204927767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_27
+      name: amara_38
       rect:
         serializedVersion: 2
-        x: 35
+        x: 131
         y: 227
-        width: 42
-        height: 87
+        width: 79
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,20 +948,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb91ec1afdcfdd64ab99c087719ce1dd
-      internalID: -1116542311
+      spriteID: 8941a503d65fde940a667ee1cba492ab
+      internalID: -1490653951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_28
+      name: amara_39
       rect:
         serializedVersion: 2
-        x: 149
+        x: 245
         y: 227
-        width: 42
-        height: 87
+        width: 79
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -738,40 +969,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edb5f6ff882aac24ca0b2bdc01b5fc34
-      internalID: -2109363966
+      spriteID: 6af53f46c6fb1c444a20db62fca1adfa
+      internalID: 1637862505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_29
+      name: amara_40
       rect:
         serializedVersion: 2
-        x: 262
+        x: 374
         y: 227
-        width: 43
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58cb8f1747416f546afdac2748c97799
-      internalID: -1344304721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_30
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 227
-        width: 90
+        width: 48
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -780,19 +990,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bf6ea754f33bef4490a30f24a016edf
-      internalID: 1321738640
+      spriteID: 0e36de961414e6842be5dfa6917fc09b
+      internalID: 45858186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_31
+      name: amara_41
       rect:
         serializedVersion: 2
-        x: 467
+        x: 488
         y: 227
-        width: 90
+        width: 48
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -801,19 +1011,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa6198540608bf043916cd33c9c26640
-      internalID: 916561976
+      spriteID: 3edf41023f6c29e4894dd54015b08c18
+      internalID: 1176264861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_32
+      name: amara_42
       rect:
         serializedVersion: 2
-        x: 581
+        x: 602
         y: 227
-        width: 90
+        width: 48
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -822,20 +1032,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1f8c92140e850d429f5380d0370cc51
-      internalID: 768546901
+      spriteID: 7a448005915a3b84982d8943ebf9095f
+      internalID: 480775273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_33
+      name: amara_43
       rect:
         serializedVersion: 2
-        x: 700
+        x: 712
         y: 227
-        width: 78
-        height: 48
+        width: 53
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -843,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66ebf548470cec44ba310ebc2e8242a9
-      internalID: -1467630457
+      spriteID: d37555c1751be5d41bf1d9bf6a1faf79
+      internalID: -275010243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_34
+      name: amara_44
       rect:
         serializedVersion: 2
-        x: 814
+        x: 826
         y: 227
-        width: 77
-        height: 48
+        width: 53
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -864,20 +1074,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c69317a3e141ad4199e0ef991c5c434
-      internalID: -1574772959
+      spriteID: a0e0e23dbbcb8e04f9526f0b1c94d212
+      internalID: -864472461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_35
+      name: amara_45
       rect:
         serializedVersion: 2
-        x: 927
+        x: 940
         y: 227
-        width: 78
-        height: 48
+        width: 53
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -885,14 +1095,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2531308ce50309a4581e9944ed3a47a3
-      internalID: 1480365491
+      spriteID: b370cc38f14429148a38b20346178595
+      internalID: 2056542668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_36
+      name: amara_46
       rect:
         serializedVersion: 2
         x: 30
@@ -906,14 +1116,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c55fed756ab97446b722ca8ade49217
-      internalID: 1586474139
+      spriteID: c16f96a8472c22043a03ee30cc2bab1e
+      internalID: -1859488109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_37
+      name: amara_47
       rect:
         serializedVersion: 2
         x: 143
@@ -927,14 +1137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bab38852b366a6f448291b87a55e7b6c
-      internalID: 1840653530
+      spriteID: 45be03c4d32986641a0d0b64df19db95
+      internalID: -1457135159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_38
+      name: amara_48
       rect:
         serializedVersion: 2
         x: 257
@@ -948,209 +1158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dab14f818fcaf14418efd14c143726b7
-      internalID: -1501049203
+      spriteID: 9e43493bc42df6645909d744c11e0b72
+      internalID: -516247540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_39
-      rect:
-        serializedVersion: 2
-        x: 366
-        y: 113
-        width: 63
-        height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fd7fddf320dbee4ebe2f7b006821499
-      internalID: -1198284188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_40
-      rect:
-        serializedVersion: 2
-        x: 479
-        y: 113
-        width: 64
-        height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 384be0245fa80b54ca0c24f5dc17da94
-      internalID: 1165198979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_41
-      rect:
-        serializedVersion: 2
-        x: 593
-        y: 113
-        width: 64
-        height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70f6e15c1619c0b46adb6eceeb3ad04f
-      internalID: 316278394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_42
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 113
-        width: 93
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e16f32256a2f5bd48949c5f6b4bc4293
-      internalID: -1373170029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_43
-      rect:
-        serializedVersion: 2
-        x: 806
-        y: 113
-        width: 94
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6da58ec668dc9074dbde7a32a675de21
-      internalID: 1944565227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_44
-      rect:
-        serializedVersion: 2
-        x: 920
-        y: 113
-        width: 94
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28aeeb4d6e798db45a6fec3a068fc669
-      internalID: 871080757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_45
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 0
-        width: 70
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d68a0c88cd14f447a645210b81c6089
-      internalID: 1676441341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_46
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 0
-        width: 71
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 841bc737473a9de47bc126768fe4b5e4
-      internalID: -1911575897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_47
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 0
-        width: 71
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 109244b5bcd0bc54080f92b8ce963cc4
-      internalID: 1514929498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg_48
+      name: amara_49
       rect:
         serializedVersion: 2
         x: 374
-        y: 0
-        width: 46
-        height: 95
+        y: 113
+        width: 50
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1158,20 +1179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6bfb9d22407f514bb8bb45fc46ba6a2
-      internalID: -1347796033
+      spriteID: 80692e2636c9f3e47818115f690f1390
+      internalID: 1623406718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_49
+      name: amara_50
       rect:
         serializedVersion: 2
         x: 488
-        y: 0
-        width: 46
-        height: 93
+        y: 113
+        width: 50
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1179,20 +1200,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a995b0bbfc02e44795c73caef710068
-      internalID: -263976298
+      spriteID: c04512ab5551b834eb818f71ef1f1897
+      internalID: -1760841999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_50
+      name: amara_51
       rect:
         serializedVersion: 2
         x: 602
+        y: 113
+        width: 49
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a432b0276bc1f41932f640de3484cc
+      internalID: 34098538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_52
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 113
+        width: 99
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a652382658befe43b84f556eef3cc10
+      internalID: 1020895734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_53
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 113
+        width: 99
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c4380d6c136524a8a39ea6b98c49c4
+      internalID: 887025646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_54
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 113
+        width: 99
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a10f0b9365ce0144a5dc05585072762
+      internalID: 790970815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_55
+      rect:
+        serializedVersion: 2
+        x: 33
         y: 0
         width: 46
-        height: 95
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1200,20 +1305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a73c3bb3b1f0594eb7d87bbcd5f0794
-      internalID: 400927682
+      spriteID: 4b1098a4e94a52d4bacc6f983f83067e
+      internalID: 1682470006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_51
+      name: amara_56
       rect:
         serializedVersion: 2
-        x: 693
+        x: 147
         y: 0
-        width: 93
-        height: 27
+        width: 46
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1221,20 +1326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17ba715712042e942ba27feac549ba94
-      internalID: 601137946
+      spriteID: 86ff0c7d40c034944b4425fbe1f455ab
+      internalID: -1777419946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_52
+      name: amara_57
       rect:
         serializedVersion: 2
-        x: 806
+        x: 261
         y: 0
-        width: 94
-        height: 27
+        width: 45
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1242,20 +1347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd0065b7292ab4c4a9bc93b4f84987e5
-      internalID: -1810762984
+      spriteID: c018060adbc56a04786840d13ef0fc6a
+      internalID: -578028479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg_53
+      name: amara_58
       rect:
         serializedVersion: 2
-        x: 920
+        x: 373
         y: 0
-        width: 94
-        height: 27
+        width: 51
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1263,8 +1368,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8210eb7a2a8ad3b43935e09e8ce75dd4
-      internalID: -1132168651
+      spriteID: 78e8f884b80f8304995956a05c0c1e24
+      internalID: 208258352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_59
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32fa524754679748a1c46a5c860e8c3
+      internalID: 1399756473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_60
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 51
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda2787dcb186744b9848fdff4e48ba8
+      internalID: -1551207145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_61
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 0
+        width: 99
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74691a448de14bf44b0b276467408cdc
+      internalID: -1238447295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_62
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 0
+        width: 99
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96317d00f60b339478d1c9b7b6aa8d3c
+      internalID: 2058889626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amara_63
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 0
+        width: 99
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c27ef57ba7bf0e4491bce49aef777e5
+      internalID: 2042013822
       vertices: []
       indices: 
       edges: []
@@ -1280,60 +1490,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pngegg_0: -1453522113
-      pngegg_1: 90501847
-      pngegg_10: -593426090
-      pngegg_11: 898283148
-      pngegg_12: -207515152
-      pngegg_13: 343115515
-      pngegg_14: 67767662
-      pngegg_15: 409877516
-      pngegg_16: -439193730
-      pngegg_17: -1105284782
-      pngegg_18: -1991056854
-      pngegg_19: -1017205629
-      pngegg_2: -614103979
-      pngegg_20: -382900478
-      pngegg_21: 804891955
-      pngegg_22: -525350959
-      pngegg_23: -5014145
-      pngegg_24: -676210906
-      pngegg_25: 1948884835
-      pngegg_26: 207749421
-      pngegg_27: -1116542311
-      pngegg_28: -2109363966
-      pngegg_29: -1344304721
-      pngegg_3: 1230884155
-      pngegg_30: 1321738640
-      pngegg_31: 916561976
-      pngegg_32: 768546901
-      pngegg_33: -1467630457
-      pngegg_34: -1574772959
-      pngegg_35: 1480365491
-      pngegg_36: 1586474139
-      pngegg_37: 1840653530
-      pngegg_38: -1501049203
-      pngegg_39: -1198284188
-      pngegg_4: -956411571
-      pngegg_40: 1165198979
-      pngegg_41: 316278394
-      pngegg_42: -1373170029
-      pngegg_43: 1944565227
-      pngegg_44: 871080757
-      pngegg_45: 1676441341
-      pngegg_46: -1911575897
-      pngegg_47: 1514929498
-      pngegg_48: -1347796033
-      pngegg_49: -263976298
-      pngegg_5: 1172498173
-      pngegg_50: 400927682
-      pngegg_51: 601137946
-      pngegg_52: -1810762984
-      pngegg_53: -1132168651
-      pngegg_6: -947519296
-      pngegg_7: 1355541904
-      pngegg_8: 1381285655
-      pngegg_9: 228164967
+      amara_0: 1927438227
+      amara_1: 2114238776
+      amara_10: 1891803062
+      amara_11: 979600004
+      amara_12: -1034533830
+      amara_13: -1038612728
+      amara_14: 1831998763
+      amara_15: 1379808688
+      amara_16: 520505642
+      amara_17: -1090597432
+      amara_18: 1189394444
+      amara_19: -455816310
+      amara_2: 600681787
+      amara_20: 77469474
+      amara_21: 1266845043
+      amara_22: 1867142806
+      amara_23: 415435960
+      amara_24: 1483736691
+      amara_25: 731247800
+      amara_26: 204146414
+      amara_27: 43645530
+      amara_28: -1130445509
+      amara_29: 810249334
+      amara_3: -1289944768
+      amara_30: -1050516533
+      amara_31: -1076476880
+      amara_32: 1105375214
+      amara_33: 658467933
+      amara_34: 368319253
+      amara_35: -88332990
+      amara_36: 2018243649
+      amara_37: 204927767
+      amara_38: -1490653951
+      amara_39: 1637862505
+      amara_4: 987721838
+      amara_40: 45858186
+      amara_41: 1176264861
+      amara_42: 480775273
+      amara_43: -275010243
+      amara_44: -864472461
+      amara_45: 2056542668
+      amara_46: -1859488109
+      amara_47: -1457135159
+      amara_48: -516247540
+      amara_49: 1623406718
+      amara_5: -6527526
+      amara_50: -1760841999
+      amara_51: 34098538
+      amara_52: 1020895734
+      amara_53: 887025646
+      amara_54: 790970815
+      amara_55: 1682470006
+      amara_56: -1777419946
+      amara_57: -578028479
+      amara_58: 208258352
+      amara_59: 1399756473
+      amara_6: 368060357
+      amara_60: -1551207145
+      amara_61: -1238447295
+      amara_62: 2058889626
+      amara_63: 2042013822
+      amara_7: -14624587
+      amara_8: 100450904
+      amara_9: -375707820
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

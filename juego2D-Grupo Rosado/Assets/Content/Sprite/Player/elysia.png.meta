@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3bb193a68cfaab84ba0e951764a69059
+guid: 08417b143f6dd1345a5950c5cee6dabb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 40
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pngegg (2)_0
+      name: elysia_0
       rect:
         serializedVersion: 2
-        x: 31
+        x: 33
         y: 568
-        width: 51
-        height: 93
+        width: 46
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aec9ce951ecdd9f4185aa97a5a4dbf95
-      internalID: -183184053
+      spriteID: 35eba319039457f49b6d87ab6e3c306b
+      internalID: 1195760540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_1
+      name: elysia_1
       rect:
         serializedVersion: 2
-        x: 145
+        x: 147
         y: 568
-        width: 51
-        height: 93
+        width: 46
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c824591f89ec9a4188ddd1f6223782d
-      internalID: -1967286468
+      spriteID: 0924fce4b0b5e2a4db831d199bf090a4
+      internalID: 1273700739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_2
+      name: elysia_2
       rect:
         serializedVersion: 2
-        x: 259
+        x: 261
         y: 568
-        width: 51
-        height: 93
+        width: 45
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 821efe28322881048a8d9f32295be657
-      internalID: -1659471799
+      spriteID: 55fbea6119d10234bab265b0a27b6010
+      internalID: -1276910011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_3
+      name: elysia_3
       rect:
         serializedVersion: 2
         x: 374
         y: 568
         width: 48
-        height: 78
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,61 +213,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 545ce6f0c4b03f24995d26ebe8a53c29
-      internalID: 53114302
+      spriteID: f164a5d1e80869f4380ec0506932bfca
+      internalID: -559969500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_4
+      name: elysia_4
       rect:
         serializedVersion: 2
-        x: 456
+        x: 470
         y: 568
-        width: 76
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4458501e2f8f0904192f0bd8367b658e
-      internalID: 1486689584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_5
-      rect:
-        serializedVersion: 2
-        x: 607
-        y: 568
-        width: 35
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32ca192492806dc47851a6556b23fa1c
-      internalID: -732987925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_6
-      rect:
-        serializedVersion: 2
-        x: 723
-        y: 568
-        width: 35
+        width: 84
         height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -276,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0154e27681ebf6742982a2b43112a700
-      internalID: -399653791
+      spriteID: 374e78b4cbcc9074584da9c1a950406b
+      internalID: 713742712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_7
+      name: elysia_5
       rect:
         serializedVersion: 2
-        x: 826
+        x: 593
         y: 568
-        width: 55
-        height: 89
+        width: 65
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 551ce7794528eaa4e8e854890e743740
-      internalID: 1546680547
+      spriteID: 0298fcd4657dece4f86716a5e7db3faa
+      internalID: -1481478973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_8
+      name: elysia_6
       rect:
         serializedVersion: 2
-        x: 936
+        x: 705
         y: 568
-        width: 64
-        height: 89
+        width: 71
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,20 +276,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f284aa2b5bef5de47a84cdf78027e9c7
-      internalID: 1863297837
+      spriteID: bc7f41467b5de184a94f21f769a90e85
+      internalID: 894055692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_9
+      name: elysia_7
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 568
+        width: 62
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb908668cf0cc3a488a951bcfebd196e
+      internalID: 201245629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_8
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 568
+        width: 80
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94edff17da471f945bbde9ab1e7ff8b2
+      internalID: -1115128120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_9
       rect:
         serializedVersion: 2
         x: 31
         y: 455
-        width: 50
-        height: 88
+        width: 51
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,20 +339,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4af0dbcca73c994f85d75070e935e5e
-      internalID: -225980333
+      spriteID: 1c4581d29256aad4889985c40fc4c083
+      internalID: -1544361700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_10
+      name: elysia_10
       rect:
         serializedVersion: 2
         x: 145
         y: 455
-        width: 49
-        height: 88
+        width: 51
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,20 +360,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 167543701606c2f478bd8c01025d0b43
-      internalID: -2045105921
+      spriteID: 51a402d7431572d48b8acfdd016786d3
+      internalID: 322422293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_11
+      name: elysia_11
       rect:
         serializedVersion: 2
         x: 259
         y: 455
-        width: 49
-        height: 88
+        width: 51
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,20 +381,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4019cc7e9dd451c4db9ad4818edf8fdb
-      internalID: -1959022260
+      spriteID: 3b230ca76f55fde4ebe3d4efddb4a698
+      internalID: -1053901078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_12
+      name: elysia_12
       rect:
         serializedVersion: 2
-        x: 374
+        x: 373
         y: 455
-        width: 46
-        height: 92
+        width: 51
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,20 +402,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 510e8bfdbd10d39408fb307484f6e418
-      internalID: 1640843538
+      spriteID: 35a8f9afea1700d4ca856223dc5701ad
+      internalID: -218106344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_13
+      name: elysia_13
       rect:
         serializedVersion: 2
-        x: 486
+        x: 485
         y: 455
-        width: 50
-        height: 92
+        width: 54
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,20 +423,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8ccd4a02434cde47a1eb89eb8b1feff
-      internalID: -11913242
+      spriteID: d1717626dc93bc1409afe1bce2f87b42
+      internalID: 1844032394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_14
+      name: elysia_14
       rect:
         serializedVersion: 2
-        x: 591
+        x: 598
         y: 455
-        width: 69
-        height: 86
+        width: 55
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,20 +444,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d13bd5ebf4bfc443ac014bdb51a376f
-      internalID: -960076689
+      spriteID: 335ae5b99f6eace4da90e188890545d0
+      internalID: -131268761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_15
+      name: elysia_15
       rect:
         serializedVersion: 2
-        x: 696
+        x: 710
         y: 455
-        width: 85
-        height: 92
+        width: 59
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,20 +465,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fac5bb2d303b0304cb2ea027efbb5ebf
-      internalID: 1986178898
+      spriteID: 08b3fa859d6409b4da071e6c2a56ced9
+      internalID: -1783188438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_16
+      name: elysia_16
       rect:
         serializedVersion: 2
-        x: 810
+        x: 824
         y: 455
-        width: 85
-        height: 92
+        width: 58
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,20 +486,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9d92b4f23a1c774dbd759e3630fb9e0
-      internalID: 429345404
+      spriteID: 3e942b1c78547dd4386a4fd427e72381
+      internalID: -126858539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_17
+      name: elysia_17
       rect:
         serializedVersion: 2
-        x: 924
+        x: 938
         y: 455
-        width: 85
-        height: 92
+        width: 58
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,20 +507,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70959463c176ceb459073a97aaeea304
-      internalID: 1073635100
+      spriteID: 14545320d55c0a84eabddd7376abdfa9
+      internalID: -1958484095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_18
+      name: elysia_18
       rect:
         serializedVersion: 2
-        x: 37
+        x: 30
         y: 341
-        width: 38
-        height: 92
+        width: 54
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,20 +528,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09936d6a6b291984abc313323b2f33d6
-      internalID: -1795786825
+      spriteID: b32bdaa4b49dc9043903158f0d68f887
+      internalID: -1491806309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_19
+      name: elysia_19
       rect:
         serializedVersion: 2
-        x: 150
+        x: 143
         y: 341
-        width: 39
-        height: 92
+        width: 55
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,20 +549,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ad8357cf461e244caf1af3aed24ca3b
-      internalID: -2073711917
+      spriteID: ddd66e15f4fdd184eb2195da0cedab6e
+      internalID: -2065034752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_20
+      name: elysia_20
       rect:
         serializedVersion: 2
-        x: 264
+        x: 257
         y: 341
-        width: 39
-        height: 92
+        width: 55
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,20 +570,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5a796639409e5f4fad4c8d46401878a
-      internalID: -11922832
+      spriteID: f470b0cf2498ac34aabde22deec3d5b8
+      internalID: 492814037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_21
+      name: elysia_21
       rect:
         serializedVersion: 2
         x: 373
         y: 341
-        width: 51
-        height: 90
+        width: 49
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 716a23d076d9c904e984855ab8a61cf9
-      internalID: -1420880303
+      spriteID: ece547aca8e7d35428d63f964773af34
+      internalID: 1971435394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_22
+      name: elysia_22
       rect:
         serializedVersion: 2
         x: 486
         y: 341
-        width: 52
-        height: 90
+        width: 50
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,20 +612,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c8b5347372e8fa47b34502fff5fd03c
-      internalID: -1237831576
+      spriteID: f6a57cc0da74f424fa8c02b8a907aeae
+      internalID: -928230689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_23
+      name: elysia_23
       rect:
         serializedVersion: 2
         x: 600
         y: 341
-        width: 51
-        height: 90
+        width: 50
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -633,20 +633,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5ac68eb6cc458e4e80a8377dcd7967d
-      internalID: -726310513
+      spriteID: 7e6e895221ca0b84e891f70c12b1c7f5
+      internalID: -1702607618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_24
+      name: elysia_24
       rect:
         serializedVersion: 2
-        x: 710
+        x: 700
         y: 341
-        width: 59
-        height: 53
+        width: 79
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,20 +654,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24e5f7ab2a317bd4e8991ca19d2bf91d
-      internalID: 937195207
+      spriteID: 417c2082dcb86514299bbca4f81a19e4
+      internalID: 591480052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_25
+      name: elysia_25
       rect:
         serializedVersion: 2
-        x: 824
+        x: 814
         y: 341
-        width: 58
-        height: 53
+        width: 79
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -675,20 +675,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edb913c4d792c09428b9a1c2f76a7640
-      internalID: 311532582
+      spriteID: 279568bbbf61e394bb49c3223e538480
+      internalID: -1355608211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_26
+      name: elysia_26
       rect:
         serializedVersion: 2
-        x: 938
+        x: 927
         y: 341
-        width: 58
-        height: 53
+        width: 80
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,20 +696,209 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6d3ee9cd1b9fa747b001c6dc75bfced
-      internalID: -989209365
+      spriteID: 25e9bee952d0ae541b655f163424621c
+      internalID: -96023031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_27
+      name: elysia_27
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 227
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c232035e3b261764e952c25781c71728
+      internalID: -29866207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_28
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 227
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5084e5e0e42508f4dab63e83e174d612
+      internalID: 460891272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_29
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 227
+        width: 43
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532433cfde2d05247a6f5af7d22c7a6e
+      internalID: 69698210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_30
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 227
+        width: 90
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f71e8b8bf0b0d4280dab51e829ad87
+      internalID: -1376247503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_31
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 227
+        width: 90
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3520b5e994473418fdcfa23b8ac92b
+      internalID: -2142521463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_32
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 227
+        width: 90
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547f111c46b67944c822be91fed8c381
+      internalID: 410754342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_33
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 227
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9ed6ce1d3e90e40811a36cbd09c390
+      internalID: -629326093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_34
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 227
+        width: 77
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091608e1ab85dfe45a26b3ac57954ee0
+      internalID: 1587303278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_35
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 227
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a868aa23fe9fd3d48be1845d120873bd
+      internalID: 904989148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_36
       rect:
         serializedVersion: 2
         x: 30
-        y: 227
+        y: 113
         width: 52
-        height: 87
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,20 +906,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aad8f393cc703294db65e2c51e7fd92d
-      internalID: 1427668558
+      spriteID: 47b66bf8138d86140976f7b535214384
+      internalID: 1312299038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_28
+      name: elysia_37
       rect:
         serializedVersion: 2
         x: 143
-        y: 227
+        y: 113
         width: 53
-        height: 87
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -738,20 +927,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddb0fc0239174c545947e77cc9de26d2
-      internalID: -1798965929
+      spriteID: 786c6fc3aaf04ae40b4bb2525ca42ca9
+      internalID: 1614470124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_29
+      name: elysia_38
       rect:
         serializedVersion: 2
         x: 257
-        y: 227
+        y: 113
         width: 53
-        height: 87
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -759,146 +948,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3a3094d84e6c404fac9da0291fec074
-      internalID: -2026205555
+      spriteID: b1c1423784131ce4f8f9b921ecee45fd
+      internalID: -504085094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_30
+      name: elysia_39
       rect:
         serializedVersion: 2
-        x: 364
-        y: 227
-        width: 67
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ac065c823a80c34caaf3cda5cc5511a
-      internalID: 1874909003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_31
-      rect:
-        serializedVersion: 2
-        x: 478
-        y: 227
-        width: 67
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5400c6fb18acdbf4599b21f1a514edb9
-      internalID: -1529601077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_32
-      rect:
-        serializedVersion: 2
-        x: 591
-        y: 227
-        width: 67
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc4d048ee72e5694fa07bff4b3ca24f7
-      internalID: -133212271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_33
-      rect:
-        serializedVersion: 2
-        x: 709
-        y: 227
-        width: 60
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b7c1d45570d5744e947d019b1ee5b6e
-      internalID: 399544441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_34
-      rect:
-        serializedVersion: 2
-        x: 822
-        y: 227
-        width: 60
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ddfd23e63563594d8a406baaa7d97fd
-      internalID: -1996245455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_35
-      rect:
-        serializedVersion: 2
-        x: 936
-        y: 227
-        width: 60
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 423a145db69c2ce4d936526e0e3b88ab
-      internalID: 1557229110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_36
-      rect:
-        serializedVersion: 2
-        x: 26
+        x: 366
         y: 113
-        width: 60
-        height: 85
+        width: 63
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -906,20 +969,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a5557543e013f04bb8afa0e153e4f3c
-      internalID: 1416236028
+      spriteID: f5fa221217bc8984a8a47b4d89030e98
+      internalID: 1280153064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_37
+      name: elysia_40
       rect:
         serializedVersion: 2
-        x: 140
+        x: 479
         y: 113
-        width: 60
-        height: 85
+        width: 64
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -927,20 +990,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46e74d8fd50dd24439f869a215a500fa
-      internalID: -1835412417
+      spriteID: c0c1e9b98cbf85c4b98fddadf9ab561f
+      internalID: -1582865844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_38
+      name: elysia_41
       rect:
         serializedVersion: 2
-        x: 254
+        x: 593
         y: 113
-        width: 60
-        height: 85
+        width: 64
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -948,145 +1011,103 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bba3543b0b352f849bb4047483ddd8d7
-      internalID: -1785279542
+      spriteID: dd6b6f9481aff664a98abcaea6f47c92
+      internalID: -1234067679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_39
+      name: elysia_42
       rect:
         serializedVersion: 2
-        x: 362
+        x: 693
         y: 113
+        width: 93
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4e43f969d6e2942a031689de3bbb1c
+      internalID: -645404640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_43
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 113
+        width: 94
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e975769b7e85464b8479cbae1bf6bb2
+      internalID: -1410419632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_44
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 113
+        width: 94
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4b4a21bfa7f0348b0a803b841c5433
+      internalID: -354529957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_45
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092e20318afac3242be6194bf98169a3
+      internalID: 677611965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_46
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
         width: 71
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b935e5e25915f38449c5ddc5ebd18638
-      internalID: 1406445408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_40
-      rect:
-        serializedVersion: 2
-        x: 476
-        y: 113
-        width: 70
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00a3aa8f54edfbe4491dac11ea05f9f8
-      internalID: 1394521535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_41
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 113
-        width: 70
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5da146b68c01bf14e882a46495a28598
-      internalID: -432648810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_42
-      rect:
-        serializedVersion: 2
-        x: 689
-        y: 113
-        width: 101
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b07ac3ee76964604bb197c57e5798db1
-      internalID: 860829833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_43
-      rect:
-        serializedVersion: 2
-        x: 803
-        y: 113
-        width: 101
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc3eb382ea545584bbd4e5b03ba1306a
-      internalID: -1720674823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_44
-      rect:
-        serializedVersion: 2
-        x: 917
-        y: 113
-        width: 101
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d57beb535a8cde945992f352206fa9f4
-      internalID: -413204825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_45
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 0
-        width: 66
         height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1095,19 +1116,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c5c20ce02ae98b4c88858d798718837
-      internalID: -366333968
+      spriteID: cdda50ace9467dc4ebaf2e001c034901
+      internalID: 387519461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_46
+      name: elysia_47
       rect:
         serializedVersion: 2
-        x: 138
+        x: 248
         y: 0
-        width: 65
+        width: 71
         height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1116,19 +1137,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b09ccb6bf8c08ce42b8dc249313c928a
-      internalID: 130686617
+      spriteID: 83c0cc3928905a944adc4fb8951d9b0d
+      internalID: -913113113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_47
+      name: elysia_48
       rect:
         serializedVersion: 2
-        x: 252
+        x: 374
         y: 0
-        width: 65
+        width: 46
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4cdf61abc43274b8139752f7d8faee
+      internalID: -877525870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elysia_49
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 46
         height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1137,20 +1179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0e247642ef57eb43b163cfbf81f9e95
-      internalID: -2082842359
+      spriteID: 6e81a50398455a146ab61466da0b1c40
+      internalID: -1133565676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_48
+      name: elysia_50
       rect:
         serializedVersion: 2
-        x: 355
+        x: 602
         y: 0
-        width: 85
-        height: 88
+        width: 46
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1158,20 +1200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77468cc6f8cff9447a57af9d0862e7b6
-      internalID: 148876407
+      spriteID: 0a18d09ce2a8fd6408ad98391154553f
+      internalID: -374134609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_49
+      name: elysia_51
       rect:
         serializedVersion: 2
-        x: 469
+        x: 693
         y: 0
-        width: 85
-        height: 88
+        width: 93
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1179,20 +1221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7417bad78b962948b62c10d5e70270c
-      internalID: -1006212603
+      spriteID: 3dc4e0778608f7848a459d78d165bb9f
+      internalID: 1246129442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_50
+      name: elysia_52
       rect:
         serializedVersion: 2
-        x: 582
+        x: 806
         y: 0
-        width: 85
-        height: 88
+        width: 94
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1200,20 +1242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 041b225b021d3794abdca85532f47305
-      internalID: -1833469775
+      spriteID: 0bf1d827e68d0f343aee639f1d547080
+      internalID: -1570876368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngegg (2)_51
+      name: elysia_53
       rect:
         serializedVersion: 2
-        x: 689
+        x: 920
         y: 0
-        width: 101
-        height: 22
+        width: 94
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1221,50 +1263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92e47959a5ff4554ba5d370eeca8775c
-      internalID: -1556289466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_52
-      rect:
-        serializedVersion: 2
-        x: 803
-        y: 0
-        width: 101
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef1f7a38b413f9e4faf1b81ffbe1628a
-      internalID: 816796177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pngegg (2)_53
-      rect:
-        serializedVersion: 2
-        x: 917
-        y: 0
-        width: 101
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0ec01c77798c5d4b944747c5eba1e76
-      internalID: 706639836
+      spriteID: fe7ef7888ac1dd540baf4aed65fd5507
+      internalID: -1153445019
       vertices: []
       indices: 
       edges: []
@@ -1280,60 +1280,60 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pngegg (2)_0: -183184053
-      pngegg (2)_1: -1967286468
-      pngegg (2)_10: -2045105921
-      pngegg (2)_11: -1959022260
-      pngegg (2)_12: 1640843538
-      pngegg (2)_13: -11913242
-      pngegg (2)_14: -960076689
-      pngegg (2)_15: 1986178898
-      pngegg (2)_16: 429345404
-      pngegg (2)_17: 1073635100
-      pngegg (2)_18: -1795786825
-      pngegg (2)_19: -2073711917
-      pngegg (2)_2: -1659471799
-      pngegg (2)_20: -11922832
-      pngegg (2)_21: -1420880303
-      pngegg (2)_22: -1237831576
-      pngegg (2)_23: -726310513
-      pngegg (2)_24: 937195207
-      pngegg (2)_25: 311532582
-      pngegg (2)_26: -989209365
-      pngegg (2)_27: 1427668558
-      pngegg (2)_28: -1798965929
-      pngegg (2)_29: -2026205555
-      pngegg (2)_3: 53114302
-      pngegg (2)_30: 1874909003
-      pngegg (2)_31: -1529601077
-      pngegg (2)_32: -133212271
-      pngegg (2)_33: 399544441
-      pngegg (2)_34: -1996245455
-      pngegg (2)_35: 1557229110
-      pngegg (2)_36: 1416236028
-      pngegg (2)_37: -1835412417
-      pngegg (2)_38: -1785279542
-      pngegg (2)_39: 1406445408
-      pngegg (2)_4: 1486689584
-      pngegg (2)_40: 1394521535
-      pngegg (2)_41: -432648810
-      pngegg (2)_42: 860829833
-      pngegg (2)_43: -1720674823
-      pngegg (2)_44: -413204825
-      pngegg (2)_45: -366333968
-      pngegg (2)_46: 130686617
-      pngegg (2)_47: -2082842359
-      pngegg (2)_48: 148876407
-      pngegg (2)_49: -1006212603
-      pngegg (2)_5: -732987925
-      pngegg (2)_50: -1833469775
-      pngegg (2)_51: -1556289466
-      pngegg (2)_52: 816796177
-      pngegg (2)_53: 706639836
-      pngegg (2)_6: -399653791
-      pngegg (2)_7: 1546680547
-      pngegg (2)_8: 1863297837
-      pngegg (2)_9: -225980333
+      elysia_0: 1195760540
+      elysia_1: 1273700739
+      elysia_10: 322422293
+      elysia_11: -1053901078
+      elysia_12: -218106344
+      elysia_13: 1844032394
+      elysia_14: -131268761
+      elysia_15: -1783188438
+      elysia_16: -126858539
+      elysia_17: -1958484095
+      elysia_18: -1491806309
+      elysia_19: -2065034752
+      elysia_2: -1276910011
+      elysia_20: 492814037
+      elysia_21: 1971435394
+      elysia_22: -928230689
+      elysia_23: -1702607618
+      elysia_24: 591480052
+      elysia_25: -1355608211
+      elysia_26: -96023031
+      elysia_27: -29866207
+      elysia_28: 460891272
+      elysia_29: 69698210
+      elysia_3: -559969500
+      elysia_30: -1376247503
+      elysia_31: -2142521463
+      elysia_32: 410754342
+      elysia_33: -629326093
+      elysia_34: 1587303278
+      elysia_35: 904989148
+      elysia_36: 1312299038
+      elysia_37: 1614470124
+      elysia_38: -504085094
+      elysia_39: 1280153064
+      elysia_4: 713742712
+      elysia_40: -1582865844
+      elysia_41: -1234067679
+      elysia_42: -645404640
+      elysia_43: -1410419632
+      elysia_44: -354529957
+      elysia_45: 677611965
+      elysia_46: 387519461
+      elysia_47: -913113113
+      elysia_48: -877525870
+      elysia_49: -1133565676
+      elysia_5: -1481478973
+      elysia_50: -374134609
+      elysia_51: 1246129442
+      elysia_52: -1570876368
+      elysia_53: -1153445019
+      elysia_6: 894055692
+      elysia_7: 201245629
+      elysia_8: -1115128120
+      elysia_9: -1544361700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -68,11 +68,11 @@ public class CharacterControll : MonoBehaviour
        GstionarOrientation(inputMovimiento);
     }
 
-    //orientation
+    
     void GstionarOrientation(float inputMovimiento){
         if((mirandoDerecha == true && inputMovimiento < 0) || (mirandoDerecha == false && inputMovimiento > 0)){
             mirandoDerecha =!mirandoDerecha;
             transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
         }
-    } //
+    } 
 }
