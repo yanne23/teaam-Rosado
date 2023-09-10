@@ -13,7 +13,7 @@ public class CharacterControll : MonoBehaviour
 
     private Rigidbody2D rigiBody;
     private BoxCollider2D boxCollider;
-    private bool mirandoDerecha = true;
+    private bool mirandoDerecha = false;
     private float saltosRestantes;
   
     private Animator animator;
