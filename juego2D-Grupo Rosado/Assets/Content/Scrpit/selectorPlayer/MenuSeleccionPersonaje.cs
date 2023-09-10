@@ -7,53 +7,49 @@ using UnityEngine.SceneManagement;
 
 public class MenuSeleccionPersonaje : MonoBehaviour
 {
-    //public InicioJugador playerSpawner;
-    //public GameObject playerSelectImage;
-
-    //private int selectedPlayerIndex = 0;
-    
     private int index;
     [SerializeField] private Image imagen;
     [SerializeField] private TextMeshProUGUI nombre;
-    private GameManager gameManager;
 
-    private void Start(){
+    private GameManager gameManager;
+    // Start is called before the first frame update
+    private void Start()
+    {
         gameManager = GameManager.Instance;
         index = PlayerPrefs.GetInt("JugadorIndex");
 
-        if(index> gameManager.personajes.Count - 1){
+        if (index > gameManager.jugadores.Count - 1){
             index = 0;
         }
-
-        CambiarPantalla();
-
+        cambiarPantalla();
     }
 
-    private void CambiarPantalla(){
+    // Update is called once per frame
+    private void cambiarPantalla(){
         PlayerPrefs.SetInt("JugadorIndex", index);
         imagen.sprite = gameManager.personajes[index].imagen;
-        nombre.text = gameManager.personajes[index].nombre; 
+        nombre.text = gameManager.personajes[index].nombre;
     }
 
-    public void SiguientePersonaje(){
+    public void bSiguiente(){
         if(index == gameManager.personajes.Count - 1){
             index = 0;
         }else{
-            index += 1;
+            index++;
         }
-        CambiarPantalla();
+        cambiarPantalla();
     }
 
-    public void AnteriorPersonaje(){
+    public void bAnterior(){
         if(index == 0){
             index = gameManager.personajes.Count - 1;
         }else{
-            index -= 1;
+            index--;
         }
-        CambiarPantalla();
+        cambiarPantalla();
     }
 
-    public void IniciarJuego(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    public void iniciarJuego(){
+        SceneManagement.LoadScene(SceneManagement.GetActiveScene().buildIndex + 1);
     }
 }

@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae28756613fdd6947a1824065499ccca, type: 3}
-  m_Name: Amara
+  m_Script: {fileID: 11500000, guid: 065cc3c6c5eb5a84e8f23f5793f2bdec, type: 3}
+  m_Name: amara
   m_EditorClassIdentifier: 
   personajeJugable: {fileID: 2676982381760980026, guid: fc1df15a52fe3e34789aef1286814a96, type: 3}
-  imagen: {fileID: -275010243, guid: 381d7512084138f4fb83f451259cd558, type: 3}
+  imagen: {fileID: 810249334, guid: 381d7512084138f4fb83f451259cd558, type: 3}
   nombre: Amara

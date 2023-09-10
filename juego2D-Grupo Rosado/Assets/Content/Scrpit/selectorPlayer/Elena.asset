@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae28756613fdd6947a1824065499ccca, type: 3}
-  m_Name: Elena
+  m_Script: {fileID: 11500000, guid: 065cc3c6c5eb5a84e8f23f5793f2bdec, type: 3}
+  m_Name: elena
   m_EditorClassIdentifier: 
   personajeJugable: {fileID: 8821284166348478041, guid: 95180c5b0d90bdb43935ff3dd0de8173, type: 3}
-  imagen: {fileID: 1863896168, guid: 3bb193a68cfaab84ba0e951764a69059, type: 3}
+  imagen: {fileID: -1139304902, guid: 3bb193a68cfaab84ba0e951764a69059, type: 3}
   nombre: Elena

@@ -7,7 +7,7 @@ public class CharacterControll : MonoBehaviour
     public float velocidad;
     public float fuerzaSalto;
     public float saltosMaximos;
-    public float empujar;
+  
     public LayerMask capaSuelo;
 
 
@@ -15,7 +15,7 @@ public class CharacterControll : MonoBehaviour
     private BoxCollider2D boxCollider;
     private bool mirandoDerecha = true;
     private float saltosRestantes;
-    private float empuje;
+  
     private Animator animator;
 
     public void Start(){
@@ -78,13 +78,4 @@ public class CharacterControll : MonoBehaviour
         }
     }
 
-    //void moverCaja(Collision2D collision){ 
-        //if(collision.gameObject.CompareTag("Caja")){
-           // Rigidbody2D cajaRigidbody = collision.gameObject.GetComponent<Rigidbody2D>();
-
-
-           // Vector2 direccionEmpuje = transform.right
-            //cajaRigidbidy.AddForce(direccionEmpuje * fuerzaEmpuje, ForceMode2D.Impulse);
-      //  }
-    
 }
