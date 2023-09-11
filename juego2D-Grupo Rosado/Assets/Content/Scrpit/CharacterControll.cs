@@ -10,7 +10,14 @@ public class CharacterControll : MonoBehaviour
   
     public LayerMask capaSuelo;
 
+    ///////////////////////
 
+    RaycastHit2D hit;
+    public Vector3 v3;
+    public LayerMask layer;
+    public float distance;
+
+    ////////////////
     private Rigidbody2D rigiBody;
     private BoxCollider2D boxCollider;
     private bool mirandoDerecha = false;
@@ -29,6 +36,7 @@ public class CharacterControll : MonoBehaviour
     {
         ProcesandoMovimiento();
         ProcesarSalto();
+        Detector_Plataforma();
     }
 
     bool EstaEnSuelo(){
@@ -78,4 +86,22 @@ public class CharacterControll : MonoBehaviour
         }
     }
 
+    bool CheckCollision{
+        get{
+            hit = Physics2D.Raycast(transform.position+v3, transform.up*-1, distance, layer);
+            return hit.collider!= null;
+        }
+    }
+
+    public void Detector_Plataforma(){
+        if(CheckCollision){
+            transform.parent = hit.collider.transform;
+        }else{
+            transform.parent = null;
+        }
+    }
+
+    void OnDrawGizmos(){
+         Gizmos.DrawRay(transform.position+v3, Vector3.up*-1*distance);
+    }
 }

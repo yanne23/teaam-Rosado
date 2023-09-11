@@ -167,3 +167,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   valor: 1
   gameManager: {fileID: 0}
+  moneda: {fileID: 8300000, guid: 31701ce3dabe9f24cbd3b85617faa5ce, type: 3}

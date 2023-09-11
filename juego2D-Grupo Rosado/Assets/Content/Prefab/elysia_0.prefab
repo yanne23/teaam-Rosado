@@ -169,7 +169,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: 3b3323a490a058044ab9fd875d66474f, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -199,3 +199,8 @@ MonoBehaviour:
   capaSuelo:
     serializedVersion: 2
     m_Bits: 64
+  v3: {x: 0, y: 0.76, z: 0}
+  layer:
+    serializedVersion: 2
+    m_Bits: 128
+  distance: 0.76

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(AudioSource))]
 public class VolumenScript : MonoBehaviour
 {
 
@@ -14,18 +15,19 @@ public class VolumenScript : MonoBehaviour
     [Header("-------- Audio Clip --------")]
 
     public AudioClip background;
-    public AudioClip death;
-
     public Slider slider;
     public float sliderValue;
     public Image imagenMute;
     // Start is called before the first frame update
-    public static VolumenScript instance;
+    
+    private AudioSource audioSource;
+    public static VolumenScript Instance;//{ get; private set; };
+
 
     private void Awake(){
 
-        if (instance == null){
-            instance = this;
+        if (Instance == null){
+            Instance = this;
             DontDestroyOnLoad(gameObject);
 
         } else {
@@ -37,6 +39,7 @@ public class VolumenScript : MonoBehaviour
     
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         musicSource.clip = background;
         musicSource.Play();
 
@@ -64,4 +67,7 @@ public class VolumenScript : MonoBehaviour
         }
     }
     
+    public void ReproducirSonido(AudioClip audio){
+         audioSource.PlayOneShot(audio);
+    }
 }

@@ -127,6 +127,11 @@ MonoBehaviour:
   capaSuelo:
     serializedVersion: 2
     m_Bits: 64
+  v3: {x: 0, y: 0.76, z: 0}
+  layer:
+    serializedVersion: 2
+    m_Bits: 128
+  distance: 0.76
 --- !u!50 &8645545186863313941
 Rigidbody2D:
   serializedVersion: 4

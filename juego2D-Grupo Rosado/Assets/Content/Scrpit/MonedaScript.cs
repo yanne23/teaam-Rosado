@@ -7,6 +7,7 @@ public class MonedaScript : MonoBehaviour
 
     public int valor = 1;
     public GameManagerScript gameManager;
+    public AudioClip moneda;
    
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -14,6 +15,7 @@ public class MonedaScript : MonoBehaviour
         if(collision.CompareTag("Player")){
             gameManager.SumarPuntos(valor);
             Destroy(this.gameObject);
+            VolumenScript.Instance.ReproducirSonido(moneda);
         }
         
     }
