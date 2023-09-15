@@ -43,18 +43,21 @@ public class CharacterControll : MonoBehaviour
 
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, new Vector2(boxCollider.bounds.size.x, boxCollider.bounds.size.y), 0f, Vector2.down, 0.1f, capaSuelo);
         return raycastHit.collider != null;  //OverlapCircle(transform.position, 0.5f, LayerMask.GetMask("Ground"));
+
     }
 
     void ProcesarSalto(){
 
         if(EstaEnSuelo()){
             saltosRestantes = saltosMaximos;
+            
         }
 
         if(Input.GetKeyDown(KeyCode.Space) && saltosRestantes > 0){
             saltosRestantes--;
             rigiBody.velocity = new Vector2(rigiBody.velocity.x, 0f);
             rigiBody.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
+           
         }
     
     }
