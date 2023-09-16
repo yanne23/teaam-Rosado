@@ -59,6 +59,8 @@ public class CharacterControll : MonoBehaviour
             rigiBody.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
            
         }
+
+        
     
     }
 
