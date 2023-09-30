@@ -8,28 +8,36 @@ using TMPro;
 public class HUD : MonoBehaviour
 {
     public TextMeshProUGUI puntos;
-	public GameObject[] vidas;
 
-	void Update () {
-		puntos.text = GameManagerScript.Instance.PuntosTotales.ToString();
-	}
+     public int counterTime= 300;
+    public TextMeshProUGUI counterTimeText;
 
- 
+    public GameManagerScript gameManager1;
+    public TextMeshProUGUI enemyText;
 
-	public void ActualizarPuntos(int puntosTotales)
-	{
-		puntos.text = puntosTotales.ToString();
-	}
 
- 
+    void Update()
+    {
+        puntos.text = gameManager.PuntosTotales.ToString();
+        enemyText.text = gameManager1.EnemigosTotales.ToString();
+    }
 
-	public void DesactivarVida(int indice) {
-		vidas[indice].SetActive(false);
-	}
+     void Start()
+    {
+        counterTimeText.text = string.Format("{0}", counterTime);
+        InvokeRepeating("TimeCounter", 1f, 1f);
+    }
 
- 
 
-	public void ActivarVida(int indice) {
-		vidas[indice].SetActive(true);
-	}
+    public void TimeCounter(){
+        counterTime--;
+        if (counterTime<0){
+            //desabilitar al player
+            //enviar el mensaje de game over (habilitarlo)
+            Debug.Log("Game Over");
+        }
+        counterTimeText.text = string.Format("{0}", counterTime);
+    }
+
+
 }
