@@ -2,43 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+
+ 
+
 public class HUD : MonoBehaviour
 {
-    public GameManagerScript gameManager;
     public TextMeshProUGUI puntos;
+	public GameObject[] vidas;
 
-     public int counterTime= 300;
-    public TextMeshProUGUI counterTimeText;
+	void Update () {
+		puntos.text = GameManagerScript.Instance.PuntosTotales.ToString();
+	}
 
-    public int enemy = 0;
-    public TextMeshProUGUI enemyText;
+ 
 
+	public void ActualizarPuntos(int puntosTotales)
+	{
+		puntos.text = puntosTotales.ToString();
+	}
 
-    void Update()
-    {
-        puntos.text = gameManager.PuntosTotales.ToString();
-    }
+ 
 
-     void Start()
-    {
-        counterTimeText.text = string.Format("{0}", counterTime);
-        InvokeRepeating("TimeCounter", 1f, 1f);
-    }
+	public void DesactivarVida(int indice) {
+		vidas[indice].SetActive(false);
+	}
 
-    public void EnemyCounter(){
-        enemy++;
-        enemyText.text = string.Format("{0}", enemy);
-    }
+ 
 
-    public void TimeCounter(){
-        counterTime--;
-        if (counterTime<0){
-            //desabilitar al player
-            //enviar el mensaje de game over (habilitarlo)
-            Debug.Log("Game Over");
-        }
-        counterTimeText.text = string.Format("{0}", counterTime);
-    }
-
-
+	public void ActivarVida(int indice) {
+		vidas[indice].SetActive(true);
+	}
 }

@@ -123,10 +123,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 4
   fuerzaSalto: 5
+  fuerzaGolpe: 500
   saltosMaximos: 1
   capaSuelo:
     serializedVersion: 2
     m_Bits: 64
+  sonidoSalto: {fileID: 0}
   v3: {x: 0, y: 0.76, z: 0}
   layer:
     serializedVersion: 2
