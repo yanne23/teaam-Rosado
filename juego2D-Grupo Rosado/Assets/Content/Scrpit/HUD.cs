@@ -10,13 +10,14 @@ public class HUD : MonoBehaviour
      public int counterTime= 300;
     public TextMeshProUGUI counterTimeText;
 
-    public int enemy = 0;
+    public GameManagerScript gameManager1;
     public TextMeshProUGUI enemyText;
 
 
     void Update()
     {
         puntos.text = gameManager.PuntosTotales.ToString();
+        enemyText.text = gameManager1.EnemigosTotales.ToString();
     }
 
      void Start()
@@ -25,10 +26,6 @@ public class HUD : MonoBehaviour
         InvokeRepeating("TimeCounter", 1f, 1f);
     }
 
-    public void EnemyCounter(){
-        enemy++;
-        enemyText.text = string.Format("{0}", enemy);
-    }
 
     public void TimeCounter(){
         counterTime--;
