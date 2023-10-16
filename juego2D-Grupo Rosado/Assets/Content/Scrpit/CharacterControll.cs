@@ -6,10 +6,9 @@ public class CharacterControll : MonoBehaviour
 {
     public float velocidad;
     public float fuerzaSalto;
-    public float fuerzaGolpe;
     public float saltosMaximos;
+  
     public LayerMask capaSuelo;
-    public AudioClip sonidoSalto;
 
     ///////////////////////
 
@@ -19,16 +18,15 @@ public class CharacterControll : MonoBehaviour
     public float distance;
 
     ////////////////
-    private Rigidbody2D rigidBody;
+    private Rigidbody2D rigiBody;
     private BoxCollider2D boxCollider;
     private bool mirandoDerecha = false;
     private float saltosRestantes;
+  
     private Animator animator;
-    private bool puedeMoverse = true;
 
-    private void Start()
-    {
-        rigidBody = GetComponent<Rigidbody2D>();
+    public void Start(){
+        rigiBody = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
         saltosRestantes = saltosMaximos;
         animator = GetComponent<Animator>();
@@ -36,71 +34,59 @@ public class CharacterControll : MonoBehaviour
 
     void Update()
     {
-        ProcesarMovimiento();
+        ProcesandoMovimiento();
         ProcesarSalto();
         Detector_Plataforma();
     }
 
-    bool EstaEnSuelo()
-    {
-        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, new Vector2(boxCollider.bounds.size.x, boxCollider.bounds.size.y), 0f, Vector2.down, 0.2f, capaSuelo);
-        return raycastHit.collider != null;
+    bool EstaEnSuelo(){
+
+        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, new Vector2(boxCollider.bounds.size.x, boxCollider.bounds.size.y), 0f, Vector2.down, 0.1f, capaSuelo);
+        return raycastHit.collider != null;  //OverlapCircle(transform.position, 0.5f, LayerMask.GetMask("Ground"));
+
     }
 
-    void ProcesarSalto()
-    {
-        if(EstaEnSuelo())
-        {
+    void ProcesarSalto(){
+
+        if(EstaEnSuelo()){
             saltosRestantes = saltosMaximos;
+            
         }
 
- 
-
-        if (Input.GetKeyDown(KeyCode.Space) && saltosRestantes > 0)
-        {
+        if(Input.GetKeyDown(KeyCode.Space) && saltosRestantes > 0){
             saltosRestantes--;
-            rigidBody.velocity = new Vector2(rigidBody.velocity.x, 0f);
-            rigidBody.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
+            rigiBody.velocity = new Vector2(rigiBody.velocity.x, 0f);
+            rigiBody.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
+           
         }
+
+        
+    
     }
 
 
-    void ProcesarMovimiento()
+    void ProcesandoMovimiento()
     {
-        // Si no puede moverse, salimos de la funcion
-        if(puedeMoverse == false) {
-            return;
-        }
- 
+       //logica del movimiento
+       float inputMovimiento = Input.GetAxis("Horizontal");
 
-        // Lógica de movimiento
-        float inputMovimiento = Input.GetAxis("Horizontal");
-
- 
-
-        if(inputMovimiento != 0f)
-        {
+        if(inputMovimiento != 0f){
             animator.SetBool("isRunning", true);
-        }
-        else
-        {
+        }else{
             animator.SetBool("isRunning", false);
         }
 
- 
+       Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
 
-        rigidBody.velocity = new Vector2(inputMovimiento * velocidad, rigidBody.velocity.y);
+       rigidbody.velocity = new Vector2(inputMovimiento * velocidad, rigidbody.velocity.y);
 
-        GestionarOrientacion(inputMovimiento);
+       GstionarOrientation(inputMovimiento);
     }
+
     
-    void GestionarOrientacion(float inputMovimiento)
-    {
-        // Si se cumple condición
-        if( (mirandoDerecha == true && inputMovimiento < 0) || (mirandoDerecha == false && inputMovimiento > 0) )
-        {
-            // Ejecutar código de volteado
-            mirandoDerecha = !mirandoDerecha;
+    void GstionarOrientation(float inputMovimiento){
+        if((mirandoDerecha == true && inputMovimiento < 0) || (mirandoDerecha == false && inputMovimiento > 0)){
+            mirandoDerecha =!mirandoDerecha;
             transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
         }
     }
@@ -122,50 +108,5 @@ public class CharacterControll : MonoBehaviour
 
     void OnDrawGizmos(){
          Gizmos.DrawRay(transform.position+v3, Vector3.up*-1*distance);
-    }
-
-    public void AplicarGolpe() {
-
- 
-
-        puedeMoverse = false;
-
- 
-
-        Vector2 direccionGolpe;
-
- 
-
-        if(rigidBody.velocity.x > 0)
-        {
-            direccionGolpe = new Vector2(-1, 1);
-        } else {
-            direccionGolpe = new Vector2(1, 1);
-        }
-
- 
-
-        rigidBody.AddForce(direccionGolpe * fuerzaGolpe);
-
- 
-
-        StartCoroutine(EsperarYActivarMovimiento());
-    }
-
-   IEnumerator EsperarYActivarMovimiento() {
-        // Esperamos antes de comprobar si esta en el suelo.
-        yield return new WaitForSeconds(0.1f);
-
- 
-
-        while(!EstaEnSuelo()) {
-            // Esperamos al siguiente frame.
-            yield return null;
-        }
-
- 
-
-        // Si ya está en suelo activamos el movimiento.
-        puedeMoverse = true;
     }
 }
